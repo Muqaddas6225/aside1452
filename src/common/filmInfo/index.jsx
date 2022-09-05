@@ -46,7 +46,7 @@ const FilmInfoDetails = () => {
               <Accordion.Item eventKey="1">
                   <Accordion.Header> 
                     <div className='info-titles'>
-                      <div className='filmdata filmdata1' ><span><img src={listImg} /></span><h4>9</h4></div>
+                      <div className='filmdata filmdata1' ><span><img src={listImg} alt='listImg' /></span><h4>9</h4></div>
                       <div className='filmdata' ><h4>Zero Assoluto Catalogue</h4></div>
                       <div className='filmdata' ><h4>Clapper</h4></div>
                       <div className='filmdata' ><h4>$39000</h4></div>

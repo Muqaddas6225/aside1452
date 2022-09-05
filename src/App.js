@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import { BrowserRouter as Routes, Route} from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import NavbarSection from 'components/Navbar';
 import Home from 'pages/Home';
 import MarketInvest from 'pages/MarketInvest';
@@ -18,6 +18,7 @@ function App() {
   return (
     <>   
         <NavbarSection/>
+        
         <Routes>
             <Route path='/' element={<Home/>} /> 
             <Route to='/market' >
