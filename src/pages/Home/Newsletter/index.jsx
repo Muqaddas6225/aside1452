@@ -34,11 +34,9 @@ const Newsletter = () => {
     const handleSubmit = event =>{
         event.preventDefault();
 
-        const email = {
-            value : message
-        }
+         
 
-        axios.post (`https://api.certiwise.fr/api/subscribe_newsletter`,{email})
+        axios.post (`https://api.certiwise.fr/api/subscribe_newsletter`,{email : message})
         .then(res => {
             console.log(res);
             console.log(res.data);
