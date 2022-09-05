@@ -1,6 +1,6 @@
 import React from 'react';
 import './hero.scss';
-import { msgIcon } from 'assests/images';
+// import { msgIcon } from 'assests/images';
 
 const Header = () => {
   return (

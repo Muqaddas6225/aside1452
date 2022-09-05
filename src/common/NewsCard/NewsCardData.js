@@ -1,4 +1,5 @@
-import { Newscard_bg, Newscard_bg2 } from 'assests/images';
+import { Newscard_bg } from 'assests/images';
+// import { Newscard_bg2 } from 'assests/images';
 const NewsCardData = [
     {
         id : 0,

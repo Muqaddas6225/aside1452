@@ -1,6 +1,6 @@
 import React from 'react';
-import MarketInvest from '../MarketInvest';
-import SecondaryMarket from '../SecondaryMarket';
+// import MarketInvest from '../MarketInvest';
+// import SecondaryMarket from '../SecondaryMarket';
 
 const Market = () => {
   return (

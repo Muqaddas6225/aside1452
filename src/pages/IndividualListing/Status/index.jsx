@@ -15,7 +15,7 @@ const Status = () => {
                 </Col>
                 <Col lg ={9}>
                     <div className='progress-div' >                         
-                        <div><p><span><img src={time}/></span>2 Days left</p></div>
+                        <div><p><span><img src={time} alt="time"/></span>2 Days left</p></div>
                         {/* <label for="file">Downloading progress:</label> */}
                         <progress className='progress-div-bar' id="file" value="45" min='0' max="100"><p>45%</p></progress>
                     </div>

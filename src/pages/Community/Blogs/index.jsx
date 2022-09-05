@@ -5,7 +5,7 @@ import YoutubeCard from 'common/youtubeCards';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import NewsCard from 'common/NewsCard';
-import NewsCardData from 'common/NewsCard/NewsCardData';
+// import NewsCardData from 'common/NewsCard/NewsCardData';
 import '../../../styles/Community/blogs.scss';
 import {Newscard_bg2 } from 'assests/images';
 

@@ -22,8 +22,8 @@ const IndividualNews= () =>{
             <Col lg ={6} className ="I-News-desc">
                 <h3>Second Silver Plaque for IRMA Records’ YouTube Channel</h3>
                 <div className='date-cmnt'>
-                    <p className='date-cmnt-p'><span><img src={date}/></span>October 7, 2021</p>
-                    <p className='date-cmnt-p'><span><img src={cmnt}/></span>20 Comments</p>
+                    <p className='date-cmnt-p'><span><img src={date} alt='date'/></span>October 7, 2021</p>
+                    <p className='date-cmnt-p'><span><img src={cmnt} alt='cmnt'/></span>20 Comments</p>
                 </div>
                 <p>Suscipit at id cras sed. Turpis lorem tempus, ut felis consectetur ut sit. Mattis imperdiet feugiat id leo. Urna facilisis eget adipiscing laoreet feugiat. Massa lectus eleifend dolor commodo</p>
                

@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.scss';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Routes, Route} from "react-router-dom";
 import NavbarSection from 'components/Navbar';
 import Home from 'pages/Home';
-import Market from 'pages/Market';
 import MarketInvest from 'pages/MarketInvest';
 import SecondaryMarket from 'pages/SecondaryMarket';
 import Community from 'pages/Community';

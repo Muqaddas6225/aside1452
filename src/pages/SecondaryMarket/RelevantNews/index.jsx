@@ -1,7 +1,5 @@
 import React from 'react'
 import Heading from 'common/headings';
-import Card from 'react-bootstrap/Card';
-
 import '../../../styles/SecondaryMarket/relevantNews.scss'
 import NewsCard from 'common/NewsCard';
 import NewsCardData from 'common/NewsCard/NewsCardData';

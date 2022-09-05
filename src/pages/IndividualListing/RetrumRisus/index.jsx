@@ -87,9 +87,9 @@ const RatrumRisus = () => {
           </Col>
           <Col lg={5}>
             <div className='retrumrisusImg-div' >
-             <div className='playlistImg-div' ><img className='playlistImg' src={retrumrisus}/></div> 
+             <div className='playlistImg-div' ><img className='playlistImg' alt="t" src={retrumrisus}/></div> 
               <div className='playlist-div'>
-                  <img  src={playListImg}/>
+                  <img  src={playListImg} alt="t"/>
                   <div>
                     <h3>
                     Vieni Da Me

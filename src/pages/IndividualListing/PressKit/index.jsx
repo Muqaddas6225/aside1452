@@ -53,7 +53,7 @@ const PressKit = () => {
                         <Row className='presskit-tab-row1'>
                             <Col lg={4}>
                               <Card>
-                                <Card.Img variant="top" src={hollywood} />
+                                <Card.Img variant="top" src={hollywood} alt='hollywood' />
                                   <Card.Body>
                                     <div>
                                       <Card.Title>Title</Card.Title>
@@ -181,17 +181,17 @@ const PressKit = () => {
                                     </thead>
                                     <tbody>
                                       <tr>
-                                        <td><img src={t1}/></td>
+                                        <td><img src={t1} alt='t1'/></td>
                                         <td>Award name</td>
                                       
                                       </tr>
                                       <tr>
-                                        <td><img src={t2}/></td>
+                                        <td><img src={t2} alt='t'/></td>
                                         <td>Award name</td>
                                       
                                       </tr>
                                       <tr>
-                                        <td><img src={t2}/></td>
+                                        <td><img src={t2}  alt='t'/></td>
                                         <td>Award name</td>
                                       </tr>
                                     </tbody>
@@ -227,7 +227,7 @@ const PressKit = () => {
                         <Row className='presskit-tab-row1'>
                             <Col lg={4}>
                               <Card>
-                                <Card.Img variant="top" src={hollywood} />
+                                <Card.Img variant="top" src={hollywood}  alt='hollywood' />
                                   <Card.Body>
                                     <div>
                                       <Card.Title>Title</Card.Title>
@@ -355,17 +355,17 @@ const PressKit = () => {
                                     </thead>
                                     <tbody>
                                       <tr>
-                                        <td><img src={t1}/></td>
+                                        <td><img src={t1} alt="t"/></td>
                                         <td>Award name</td>
                                       
                                       </tr>
                                       <tr>
-                                        <td><img src={t2}/></td>
+                                        <td><img src={t2} alt="t"/></td>
                                         <td>Award name</td>
                                       
                                       </tr>
                                       <tr>
-                                        <td><img src={t2}/></td>
+                                        <td><img src={t2} alt="t"/></td>
                                         <td>Award name</td>
                                       </tr>
                                     </tbody>

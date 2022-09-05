@@ -54,7 +54,7 @@ import shareicon from './globalImgs/share.svg';
 import cmnt from './globalImgs/cmnt.svg';
 import date from './globalImgs/date.svg';
 import large from './youtubeCardImgs/large.png';
-import youtubevideoCardData from 'common/youtubeVideoCard/YoutubeVideoCardData';
+// import youtubevideoCardData from 'common/youtubeVideoCard/YoutubeVideoCardData';
 
 //community imgs
 // give away images

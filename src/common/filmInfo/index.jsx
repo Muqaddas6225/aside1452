@@ -22,14 +22,14 @@ const FilmInfoDetails = () => {
               <Accordion.Item eventKey="0">
                   <Accordion.Header> 
                     <div className='info-titles'>
-                      <div className='filmdata filmdata1' ><span><img src={listImg} /></span><h4>9</h4></div>
+                      <div className='filmdata filmdata1' ><span><img src={listImg} alt='film' /></span><h4>9</h4></div>
                       <div className='filmdata' ><h4>Zero Assoluto Catalogue</h4></div>
                       <div className='filmdata' ><h4>Clapper</h4></div>
                       <div className='filmdata' ><h4>$39000</h4></div>
                       <div className='filmdata' ><h4>70y 0m</h4></div>
                       <div className='filmdata' ><h4>$7.96</h4></div>
-                      <div className='filmdata' ><span><img src={listChart} /></span></div>
-                      <div className='filmdata' ><span><img src={deleteIcon} /></span></div>
+                      <div className='filmdata' ><span><img src={listChart} alt='film'/></span></div>
+                      <div className='filmdata' ><span><img src={deleteIcon} alt='film'/></span></div>
                    </div>
                   </Accordion.Header>
                   <Accordion.Body>
@@ -52,8 +52,8 @@ const FilmInfoDetails = () => {
                       <div className='filmdata' ><h4>$39000</h4></div>
                       <div className='filmdata' ><h4>70y 0m</h4></div>
                       <div className='filmdata' ><h4>$7.96</h4></div>
-                      <div className='filmdata' ><span><img src={listChart} /></span></div>
-                      <div className='filmdata' ><span><img src={deleteIcon} /></span></div>  
+                      <div className='filmdata' ><span><img src={listChart} alt='film'/></span></div>
+                      <div className='filmdata' ><span><img src={deleteIcon} alt='film'/></span></div>  
                     </div>
                     </Accordion.Header>
                   <Accordion.Body>

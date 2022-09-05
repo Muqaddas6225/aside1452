@@ -2,8 +2,6 @@ import React from 'react';
 import '../../../styles/home/showCaseProject.scss'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import VideoCard from 'common/VideoCard';
 import VideoCardData from 'common/VideoCard/VideoCardData';
 import Heading from 'common/headings';

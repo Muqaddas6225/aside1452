@@ -11,7 +11,7 @@ const YoutubevideoCard = (props) => {
     {/* className= {[(props.widthStyle == '39rem') ? "card1" : "card2" && (props.flex=='column') ? 'card3' : 'card4']}  */}
     <Card >
     <div>
-    <img src={props.img}  />
+    <img src={props.img} alt='youtube' />
     </div>
        
       <Card.Body>

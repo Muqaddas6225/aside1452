@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import React  from 'react';
+// import Carousel from 'react-bootstrap/Carousel';
 import Heading from 'common/headings';
 import { reviewer } from 'assests/images';
 
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Pagination } from 'swiper';
 import '../../../styles/home/reviews.scss'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { musically, Rolling_Stone_magazine,ForbeslogoCopia,
@@ -20,11 +20,11 @@ import 'swiper/css/scrollbar';
 
 const Reviews = () => {
 
-    const [index, setIndex] = useState(0);
+    // const [index, setIndex] = useState(0);
 
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-    };
+    // const handleSelect = (selectedIndex, e) => {
+    //   setIndex(selectedIndex);
+    // };
   
 
   return (
@@ -47,7 +47,7 @@ const Reviews = () => {
           >
             <SwiperSlide>
                <div className='reviewer-content'>
-                    <img src={reviewer}/>
+                    <img src={reviewer} alt='slider'/>
                     <div className='reiewer-desc'>
                                   <h3>John Paul Smith</h3>
                                   <h4>CEO & Co-founder</h4>
@@ -61,7 +61,7 @@ const Reviews = () => {
             
             <SwiperSlide>
             <div className='reviewer-content'>
-                      <img src={reviewer}/>
+                      <img src={reviewer} alt='slider'/>
                       <div className='reiewer-desc'>
                                   <h3>John Paul Smith</h3>
                                   <h4>CEO & Co-founder</h4>
@@ -75,7 +75,7 @@ const Reviews = () => {
             
             <SwiperSlide>
             <div className='reviewer-content'>
-                      <img src={reviewer}/>
+                      <img src={reviewer}  alt='slider'/>
                       <div className='reiewer-desc'>
                                   <h3>John Paul Smith</h3>
                                   <h4>CEO & Co-founder</h4>

@@ -3,8 +3,7 @@ import React from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import '../../../styles/Individuallisting/mediagallery.scss';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 import { galleryImg1,
         galleryImg2,
         galleryImg3 } from 'assests/images';    
@@ -25,16 +24,16 @@ const MediaGallery = () => {
                 >
                 <Tab eventKey="home" title="Videos">
                 <div className='gallery-images'>
-                    <img  className="gImg-div" src={galleryImg2}/>
-                    <img  className="gImg-div" src={galleryImg1}/>
-                    <img  className="gImg-div" src={galleryImg3}/>
+                    <img  className="gImg-div" alt='galleryImg' src={galleryImg2}/>
+                    <img  className="gImg-div" alt='galleryImg' src={galleryImg1}/>
+                    <img  className="gImg-div" alt='galleryImg' src={galleryImg3}/>
                 </div>
                 </Tab>
                 <Tab eventKey="profile" title="Images">
                 <div className='gallery-images'>
-                    <img  className="gImg-div" src={galleryImg2}/>
-                    <img  className="gImg-div" src={galleryImg1}/>
-                    <img  className="gImg-div" src={galleryImg3}/>
+                    <img  className="gImg-div"  alt='galleryImg'src={galleryImg2}/>
+                    <img  className="gImg-div" alt='galleryImg' src={galleryImg1}/>
+                    <img  className="gImg-div" alt='galleryImg' src={galleryImg3}/>
                 </div>
                 </Tab>
                 
