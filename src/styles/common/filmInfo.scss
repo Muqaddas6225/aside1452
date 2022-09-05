@@ -1,0 +1,115 @@
+.film-info{
+    #filmTitlesdiv{
+        //  overflow: scroll;
+        // min-width: 500px;
+        // width: 100%;
+    }
+    .titles{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        text-align: center;
+        // overflow: scroll;
+        // min-width: 500px;
+        // width: 100%;
+        h4{
+                        
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 22px;
+            /* identical to box height */
+            color: #F5BC31;
+
+        }
+    }
+
+    .accordion-item{
+        margin-bottom: 25px;
+        overflow-x: scroll;
+        // min-width: 500px;
+        width: 100%;
+        button{
+            background: #FFFFFF;
+        // box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.12) !important;
+             border-style: none;
+        }
+    }
+    
+    .accordion-item:last-of-type,.accordion-item:first-of-type{
+        // border-top-left-radius: 25px !important;
+        // border-top-right-radius: 25px !important;
+       
+        border-radius: 25px !important;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.12) !important;
+    }
+       
+    .accordion-item:first-of-type .accordion-button.collapsed,
+    .accordion-item:last-of-type .accordion-button.collapsed{
+        // border-top-left-radius: 25px !important;
+        // border-top-right-radius: 25px !important;
+       border-radius: 25px !important;
+       
+    }
+    
+    .accordion-item:first-of-type .accordion-button,
+    .accordion-item:last-of-type .accordion-button.collapsed{
+        // position: unset;
+        display: grid !important;
+        grid-template-rows: 1fr !important;
+        // grid-template-columns: 1fr;
+    }
+    
+    .accordion-button:not(.collapsed)::after,.accordion-button::after{
+        display: none;
+    }
+    
+    
+
+
+
+}
+
+
+.accordion-item{
+    @media screen and (max-width:1024px) {
+        overflow: hidden;
+    }
+}
+
+.info-titles{
+    display: grid;
+    grid-template-columns: repeat(8, 120px);
+    text-align: center;
+    
+   
+    .filmdata{  
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        border-right: 2px solid #DDDDDD;
+
+        h4{
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 88.18%;
+            /* or 14px */
+            /* #363636 */
+            color: #363636;
+        }
+
+    }
+
+    .filmdata1{
+        display: flex;
+        flex-direction: row !important;
+        gap: 20px;
+    }
+
+    .filmdata:nth-child(8){
+            border-right: none;
+    }
+}

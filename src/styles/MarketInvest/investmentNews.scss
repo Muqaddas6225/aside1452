@@ -1,0 +1,59 @@
+.InvestmentNewsContent{
+    background-image: url('../../assests/images/marketInvestImgs/InvestmentNews/investmentNews-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+    position: relative;
+    // z-index: 1;
+    .slider-div{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center !important;
+        text-align: center;
+        color: white;
+        padding-top: 220px;
+        .swiper{
+            .swiper-slide,.swiper-slide-active{
+                margin-bottom: 50px;
+                h3{
+                                        
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 47px;
+                    text-align: center;
+
+                    color: #FFFFFF;
+
+                }
+                p{
+                                        
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 27px;
+
+                    color: #FFFFFF;
+                }
+            }
+          
+            .swiper-pagination-bullet{
+                background-color: #FFFFFF;
+                width: 24px;
+                height: 5px;
+                border-radius: 25px;
+            }
+            .swiper-pagination-bullet-active{
+                background-color:yellow ;
+                width: 24px;
+                height: 5px;
+                border-radius: 25px;
+            }
+        }
+
+    }
+}

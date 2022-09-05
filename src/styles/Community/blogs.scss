@@ -1,0 +1,19 @@
+
+.blogs-div{
+   
+            
+.blogs-row{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+    object-fit: contain;
+    // height: 364px;
+   
+        .blogNewsCard{
+            margin-bottom: 20px;
+            padding-bottom: 122px;
+            // height: 100%;
+        }
+}
+}

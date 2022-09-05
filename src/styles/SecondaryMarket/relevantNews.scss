@@ -1,0 +1,34 @@
+.newscard-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.ReadNewsButton{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+    .readNews{
+        background: #F5BC31;
+        border-radius: 5px;
+        width: 257px;
+        height: 50px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+    
+        color: #FFFFFF;
+        border-style: none;
+        outline: none;
+    }
+}

@@ -1,0 +1,128 @@
+.YoutubeCard-div{
+    .card{
+        background-color: transparent;
+        color: white;
+        border-style: none;
+
+        .card-body{
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            align-items: center;
+            .card-title{                    
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 131.19%;
+                /* or 26px */
+                /* #76D3BE */
+                color: #76D3BE;
+            }
+            .youtubecard-date-cmnt{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+  
+                p{
+                   display: flex;
+                   gap: 10px;                             
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 131.19%;
+                }
+            }
+
+            .youtubecard-desc{
+                p{
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 149.69%;
+                }
+            }
+        }
+        
+    }
+    .card1{
+        max-width: 39rem;
+    }
+    .card2{
+       max-width:  253px;
+    //    justify-content: center;
+      
+    }
+    .card3{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+    //    justify-content: center;
+        .youtubecard-date-cmnt{
+ 
+         p{
+             font-weight: 300;
+             font-size: 10px;
+             line-height: 131.19%;
+         }
+     }
+ 
+     .youtubecard-desc{
+         p{
+             font-weight: 300;
+             font-size: 10px;
+             line-height: 131.19%;
+         }
+     }
+ 
+    }
+    .card4{
+        display: flex;
+        flex-direction: row;
+        // max-width: 360px;
+        object-fit: contain;
+        // min-height: 144px;
+    }
+
+   
+.card4{
+    @media screen and (max-width:1024px) {
+        max-width: 600px;
+       
+    }
+    @media screen and (max-width:768px) {
+        max-width: 500px;
+       
+    }
+    @media screen and (max-width:568px) {
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+        
+        img{
+            max-width: 300px;
+        }
+    }
+}
+
+
+.card3{
+    @media screen and (max-width:768px) {
+        max-width: 500px;
+    }
+    @media screen and (max-width:568px) {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+      
+    img{
+        max-width: 300px;
+    }
+    }
+
+}
+}

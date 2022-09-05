@@ -1,0 +1,33 @@
+.I-News-section{
+        background-image: url('../../assests/images/individuallisting/NewsImgs/INews-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 512px;
+        .I-News-content{
+            padding-top: 200px;
+            color: white;
+            .date-cmnt{
+                display: flex;
+                gap: 30px;
+                .date-cmnt-p{
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+            p{
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 149.69%;
+            }
+            h3{
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 131.19%;
+            }
+                           
+        }
+}

@@ -1,0 +1,83 @@
+.footer-section{
+    background-image: url('../../assests/images/footer/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.72);
+    opacity: 0.99;
+    min-height: 389px;
+    padding-top: 46px;
+    padding-bottom: 25.96px;
+    color: white;
+    .footer-row{
+        display: flex;
+        flex-direction: row;
+        // text-align: start;
+        // align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        h3{
+                                
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 88.18%;
+            /* identical to box height, or 18px */
+
+
+            /* #76D3BE */
+
+            color: #76D3BE;
+
+        }
+
+       ul{
+        padding-left: 0;
+       }
+
+    
+       .disclaimer-col{
+        .disclaimer-content{
+            p{
+                    
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                /* or 14px */
+    
+    
+                color: #FFFFFF;
+           }
+        }
+       }
+
+       .AsideFilms-col{
+        .AsideFilms-content{
+
+        }
+       }
+
+       .Support-col{
+        .Support-content{
+
+        }
+       }
+
+       .Contact-col{
+        .Contact-content{
+
+        }
+       }
+
+       .Policies-col{
+        .Policies-content{
+
+        }
+       }
+    }
+
+}
+

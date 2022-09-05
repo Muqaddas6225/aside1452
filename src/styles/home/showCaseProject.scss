@@ -1,0 +1,56 @@
+.showcase-div{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+    .tabs-div{
+        // overflow: auto;
+        ul{
+            border-bottom: 1.5px solid #CECECE;;
+            li{
+                transform: translateY(1px);
+                .nav-link{                  
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #CECECE;
+                }
+                .nav-link.active{
+                    border-bottom: 2px solid #76D3BE;
+                    border-top: none;
+                    border-left: none;
+                    border-right: navajowhite;
+                    font-weight: 600;
+                    color: #76D3BE;
+                    background-color: transparent;
+            }
+            }
+
+            }
+
+        }
+
+    .tab-cards{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    
+    }
+
+}
+
+.tab-cards{
+    @media screen and (max-width: 1140px){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+   
+
+}

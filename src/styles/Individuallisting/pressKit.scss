@@ -1,0 +1,259 @@
+.PressKit-div{
+            // overflow: auto;
+            ul{
+                // border-bottom: 1.5px solid #CECECE;
+                border-bottom: transparent;
+                li{
+                    transform: translateY(1px);
+                    .nav-link{                  
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 87.18%;
+                        color: #066162;
+                        outline: none;
+                        
+                        
+                    }
+                    .nav-link.active{
+                        border-bottom: transparent;
+                        border-top: none;
+                        border-left: none;
+                        border-right: navajowhite;
+                        font-weight: 600;
+                        color: white;
+                        background: rgba(6, 97, 98, 0.31);
+                        border-radius: 5px 5px 0px 0px;
+                        outline: none;
+                }
+                }
+            }
+            // .tab-content{
+            //     .table{
+            //         border-bottom: none;
+            //         outline: none;
+            //         color: white;
+            //         tr{
+            //             margin-top: 20px !important;
+            //             border: transparent;
+            //             margin-bottom: 20px;
+            //             // text-align: center;
+            //         }
+            //         thead{
+            //             border: transparent;
+            //             background: #066162;
+            //             border-radius: 5px;
+            //             th{
+            //                 font-family: 'Raleway';
+            //                 font-style: normal;
+            //                 font-weight: 600;
+            //                 font-size: 20px;
+            //                 line-height: 97.18%;
+            //                 /* or 19px */
+
+
+            //                 /* #76D3BE */
+
+            //                 color: #76D3BE;
+            //             }
+            //         }
+            //     }
+            // }
+            .pressKit-content{
+                
+                background: linear-gradient(90deg, rgba(6, 97, 98, 0.31) 0%, rgba(6, 97, 98, 0.31) 48.26%, rgba(6, 97, 98, 0.31) 93.75%);
+                padding-top: 50px;
+                padding-left: 22px;
+                padding-right: 22px;
+                padding-bottom: 59px;
+                .presskit-tab-row1{
+                    gap: 30px;
+                    .card{
+                    
+                        background:transparent;
+                        border-style: none;
+
+                    .card-body{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items:flex-start;
+                        .card-title{
+                                                    
+                            font-family: 'Open Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 96.18%;
+                            /* or 13px */
+
+
+                            /* #76D3BE */
+
+                            color: #76D3BE;
+
+                        }
+                        .card-text{
+                                                    
+                            font-family: 'Open Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 96.18%;
+                            /* or 17px */
+
+
+                            /* #FFFFFF */
+
+                            color: #FFFFFF;
+
+
+                        }
+                    }
+                  }
+
+                  .pressKit-content-tabs{
+                    ul{
+                        border-bottom: 1.5px solid #CECECE;
+                    
+                        li{
+                            transform: translateY(1px);
+                            .nav-link{                  
+                                font-family: 'Raleway';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 20px;
+                                line-height: 23px;
+                                color: #CECECE;
+                                
+                            }
+                            .nav-link.active{
+                                border-bottom: 2px solid #76D3BE;
+                                border-top: none;
+                                border-left: none;
+                                border-right: navajowhite;
+                                font-weight: 600;
+                                color: #76D3BE;
+                                background-color: transparent;
+                            
+                        }
+                        }
+                    }
+                    // .tab-content{
+                    //     .table{
+                    //         border-bottom: none;
+                    //         outline: none;
+                    //         color: white;
+                    //         tr{
+                    //             margin-top: 20px !important;
+                    //             border: transparent;
+                    //             margin-bottom: 20px;
+                    //             // text-align: center;
+                    //         }
+                    //         thead{
+                    //             border: transparent;
+                    //             background: #066162;
+                    //             border-radius: 5px;
+                    //             th{
+                    //                 font-family: 'Raleway';
+                    //                 font-style: normal;
+                    //                 font-weight: 600;
+                    //                 font-size: 20px;
+                    //                 line-height: 97.18%;
+                    //                 /* or 19px */
+        
+        
+                    //                 /* #76D3BE */
+        
+                    //                 color: #76D3BE;
+                    //             }
+                    //         }
+                    //     }
+                    // }
+                  }
+                }
+
+                .tab-content{
+                    .table{
+                        border-bottom: none;
+                        outline: none;
+                        color: white;
+                        tr{
+                            margin-top: 20px !important;
+                            border: transparent;
+                            margin-bottom: 20px;
+                            display: flex;
+                            align-items: center;
+                            gap: 90px;
+                            // justify-content: center;
+                            // text-align: center;
+                        }
+                        thead{
+                            border: transparent;
+                            background: #066162;
+                            border-radius: 5px;
+                            th{
+                                font-family: 'Raleway';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 20px;
+                                line-height: 97.18%;
+                                /* or 19px */
+    
+    
+                                /* #76D3BE */
+    
+                                color: #76D3BE;
+                            }
+                        }
+                    }}
+
+
+
+
+
+                .presskit-tab-row2{
+                    .row2-title{
+                        display: flex;
+                        justify-content: flex-start;
+                    }
+                    p{
+                        color: white;
+                    }
+                    // .tab-content{
+                    //     .table{
+                    //         border-bottom: none;
+                    //         outline: none;
+                    //         color: white;
+                    //         tr{
+                    //             margin-top: 20px !important;
+                    //             border: transparent;
+                    //             margin-bottom: 20px;
+                    //             // text-align: center;
+                    //         }
+                    //         thead{
+                    //             border: transparent;
+                    //             background: #066162;
+                    //             border-radius: 5px;
+                    //             th{
+                    //                 font-family: 'Raleway';
+                    //                 font-style: normal;
+                    //                 font-weight: 600;
+                    //                 font-size: 20px;
+                    //                 line-height: 97.18%;
+                    //                 /* or 19px */
+        
+        
+                    //                 /* #76D3BE */
+        
+                    //                 color: #76D3BE;
+                    //             }
+                    //         }
+                    //     }
+                    // }
+                }
+            }
+               
+
+            }

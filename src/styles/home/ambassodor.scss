@@ -1,0 +1,92 @@
+.ambassodor-section{
+    margin-bottom: 100px;
+
+.get-rewards{
+    max-width: 918px;
+    min-height: 177px;
+    margin-left: 92px;
+    margin-right: 92px;    
+    // background: #4BA5A6;
+    border-radius: 37px;
+    object-fit: contain;
+    .accordion.accordion-flush{
+        .accordion-item{
+            background-color: #4BA5A6 !important;
+            border-radius: 25px;
+            button{
+                border-radius: 25px;
+                background-color: #4BA5A6 !important;
+                color: #FFFFFF;
+                border-style: none;
+                p{
+                                        
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 23px;
+
+                }
+            }
+
+            .ambassodor-body{
+                // display: flex;
+                // flex-direction: row;
+                .ambassodar-desc{
+                    p{                    
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 22px;
+
+                        color: #FFFFFF;
+
+                    }
+                }
+                
+                .copy-link{
+                    display: flex;
+                    flex-direction: column;
+                    input{
+                        background: #F5F5F5;
+                        border-radius: 24.5px;
+                        border-style: none;
+                        height: 44px;
+                        text-align: center;
+                    }
+                    label{
+                        text-align: center;                     
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 14px;
+                        /* identical to box height */
+
+
+                        color: #FFFFFF;
+                    }
+                }
+                                        
+                       
+               
+            }
+        }
+       
+    }
+
+}  
+
+.get-rewards{
+    @media screen and (max-width:490px) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+
+}
+
+

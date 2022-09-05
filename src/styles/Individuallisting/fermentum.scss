@@ -1,0 +1,153 @@
+.fermentum-section{
+    background-image: url('../../assests/images/individuallisting/fermentumImgs/chaos-walking.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 785px;
+    position: relative;
+    .fermentum-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .fermentum-loading{
+            position: absolute;
+            top: 40%;
+            left: 45%;
+           
+            height: 89px;
+            width: 89px;
+            img{
+               height: 100%;
+               width: 100%;
+            }
+        }
+        h3{
+            font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 3.125rem;
+                line-height: 107.18%;
+                /* or 54px */
+                color: #FFFFFF;
+                position: absolute;
+                    top: 60%;
+                    left: 28%;
+        }
+        button{
+            background: #F5BC31;
+            backdrop-filter: blur(4px);
+            border-radius: 5px;        
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 67.18%;
+            /* or 13px */
+           /* #FFFFFF */
+            width: 214px;
+            min-height: 50px;
+            color: #FFFFFF;
+            border-style: none;
+            position: absolute;
+            top: 70%;
+            left: 40%;
+            right: 40%;
+        }
+
+        .fermentum-star{
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            top: 80%;
+            left: 46%;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        // .fermentum-desc{
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: center;
+        //     align-items: center;
+        //     position: absolute;
+        //     top: 60%;
+        //     left: 28%;
+        //     h3{
+                        
+        //         font-family: 'Raleway';
+        //         font-style: normal;
+        //         font-weight: 400;
+        //         font-size: 3.125rem;
+        //         line-height: 107.18%;
+        //         /* or 54px */
+        //         color: #FFFFFF;
+    
+        //     }
+        // }
+       
+    }
+
+   
+
+
+}
+
+
+.fermentum-section{
+    @media screen and (max-width:796px){
+        .fermentum-content{
+        
+            // .fermentum-loading{
+            
+            //         height: 62px;
+            //         width: 62px;
+            //         img{
+            //         height: 100%;
+            //         width: 100%;
+            //         }
+            //     }
+            // 
+            button{
+                top: 80%;
+                left: 36%;
+            }
+            .fermentum-star{
+                top: 90%;
+            }
+        
+        }
+    }
+
+    @media screen and (max-width:475px) {
+    .fermentum-content{
+        
+        .fermentum-loading{
+                top: 30%;
+                height: 62px;
+                width: 62px;
+                img{
+                height: 100%;
+                width: 100%;
+                }
+            }
+        
+            h3{
+                font-weight: 300;
+                font-size: 2rem;
+                line-height: 107.18%;
+              
+            }
+            button{
+                top:70%;
+                width: 150px;
+                height: 50px;
+            }
+            .fermentum-star{
+                top: 80%;
+            }
+    
+    }
+        
+}
+}

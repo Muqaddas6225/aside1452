@@ -1,0 +1,73 @@
+.Calendar-section{
+
+    .calendar-list{
+        display: flex;
+        // flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        .calendar-item{
+            background-color: #FFFFFF;
+            // background-color: linear-gradient(90deg, rgba(9, 9, 9, 0.3) -234.23%, rgba(0, 0, 0, 0.162) -234.2%, rgba(196, 196, 196, 0) -90.65%);
+            border-radius: 10px;
+            // width: 162px;
+            height: 117px;
+            text-align: center;
+            padding-top: 10px;
+            max-width: 161px;
+           
+            .calendar-desc{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                .icon-calendar{
+                    border-right: 1px solid #76D3BE;;
+                }
+            }
+            
+           
+                p,h4{
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 123.18%;
+                    /* or 27px */
+
+
+                    /* #76D3BE */
+
+                    color: #76D3BE;
+                }
+            
+        }
+    }
+    .btn-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    button{
+        background-color: #F5BC31;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+
+        border-radius: 5px;
+        height: 50px;
+        width: 240px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 67.18%;
+        /* or 13px */
+
+
+        /* #FFFFFF */
+
+        color: #FFFFFF;
+        border-style: none;
+    }
+  }
+}

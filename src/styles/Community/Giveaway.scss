@@ -1,0 +1,57 @@
+.giveaway-section{
+    background-image: url('../../assests/images/communityImgs/giveawaysImgs/giveaway-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 493px;
+    
+    background-color: linear-gradient(270deg, rgba(0, 0, 0, 0) -3.9%, #000000 100%);
+    opacity:-0.5px;
+ .giveaway-section2{
+        background: linear-gradient(270deg, rgba(0, 0, 0, 0) -3.9%, #000000 100%);
+        background-size: cover;
+        height: inherit;
+        background-repeat: no-repeat;
+        .giveaway-content{
+            padding-top: 100px;
+            color: white;
+         
+             .giveaway-desc{
+              h3{
+                              
+                  font-family: 'Raleway';
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 40px;
+                  line-height: 131.19%;
+             }
+             p{
+              font-family: 'Open Sans';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 149.69%;
+             }
+            
+             
+              button{
+                  background: #4BA5A6;
+                  border-radius: 5px;
+                  border-style: none;
+                  font-family: 'Open Sans';
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 16px;
+                  line-height: 125.68%;
+                  color: white;
+                  height: 49px;
+                  width: 160px;
+             }
+      
+             }
+            
+            
+            
+          }
+    }
+    
+}

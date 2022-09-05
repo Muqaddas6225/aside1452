@@ -1,0 +1,49 @@
+ .gallery-section{
+      margin-bottom: 80px;
+    .gallery-tabs-div{
+        // overflow: auto;
+       
+        ul{
+            border-bottom: 1.5px solid #CECECE;
+            width: 310px;
+            margin: auto;
+            // margin-bottom: 30px;
+
+            li{
+                transform: translateY(1px);
+                .nav-link{                  
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #CECECE;
+                }
+                .nav-link.active{
+                    border-bottom: 2px solid #76D3BE;
+                    border-top: none;
+                    border-left: none;
+                    border-right: navajowhite;
+                    font-weight: 600;
+                    color: #76D3BE;
+                    background-color: transparent;
+            }
+            }
+
+            }
+
+        .gallery-images{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            .gImg-div{
+               max-width: 300px;
+            }
+        }
+
+        }
+    }

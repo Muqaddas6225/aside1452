@@ -1,0 +1,255 @@
+
+.listingManagment-section{
+    margin-bottom: 100px;
+    .RoyaltyDistribution{
+        padding: 16px;
+        background: linear-gradient(100.9deg, #066162 0%, rgba(6, 97, 98, 0) 100%);
+        border-radius: 5px;
+        margin-bottom: 30px;
+        // height: 150px;
+        // border:1px solid linear-gradient(100.9deg, #F5BC31 0%, rgba(6, 97, 98, 0) 100%);
+    h3{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+
+
+        /* #76D3BE */
+
+        color: #76D3BE;
+    }
+    p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+
+        /* #FFFFFF */
+
+        color: #FFFFFF;
+    }
+    .siae-location{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        h4{
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            /* identical to box height */
+
+
+            /* #76D3BE */
+
+            color: #76D3BE;
+
+        }
+        p{
+                    
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+
+            /* #FFFFFF */
+
+            color: #FFFFFF;
+
+        }
+    }
+    progress{
+        width: 100%;
+        background: transparent;
+        border-radius: 21px;
+        cursor: pointer;
+    }
+    ::-webkit-progress-bar {
+        background: #C4C4C4;
+        border-radius: 21px;
+        }
+        ::-webkit-progress-value {
+            background: #FFFFFF;
+            border-radius: 21px;
+        
+        }
+    .next-desc{
+        display: flex;
+        justify-content: flex-end;
+    }
+    }
+
+    .orderTabs{
+        background: linear-gradient(138.98deg, #066162 0%, rgba(6, 97, 98, 0) 100%);
+        padding-top: 22px;
+        padding-bottom: 22px;
+        padding-left: 30px;
+        padding-right: 30px;
+        ul{
+            border-bottom: 1.5px solid #CECECE;
+            // width: 700px;
+            margin: auto;
+            // margin-bottom: 50px;
+
+            li{
+                transform: translateY(1px);
+                .nav-link{                  
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #CECECE;
+                }
+                .nav-link.active{
+                    border-bottom: 2px solid #76D3BE;
+                    border-top: none;
+                    border-left: none;
+                    border-right: navajowhite;
+                    font-weight: 600;
+                    color: #76D3BE;
+                    background-color: transparent;
+            }
+            }
+
+            }
+        .order{
+            h4{
+                padding-top:18px ;
+                padding-bottom: 18px;        
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 23px;
+
+                /* #FFFFFF */
+
+                color: #FFFFFF;
+            }
+            .head2{
+            
+            }
+            .order-status{
+                
+                .buy-order{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    p{
+                        padding-top:8px ;
+                        padding-bottom: 8px; 
+                    }
+                
+                    .order-title{
+                                            
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 17px;
+                        line-height: 16px;
+
+                        /* #76D3BE */
+
+                        color: #76D3BE;
+                    }
+                    .order-title-desc{
+                                            
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 17px;
+                        line-height: 16px;
+
+                        /* #FFFFFF */
+
+                        color: #FFFFFF;
+
+                    }
+                }
+            }
+            .button-div{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 56px;
+                gap: 30px;
+                // align-items: center;
+                button{
+                                    
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 25px;
+                    /* identical to box height */
+
+
+                    /* #FFFFFF */
+
+                    color: #FFFFFF;
+                    
+                    border-radius: 5px;
+                    width: 157px;
+                    height: 48px;
+                    border-style: none;
+                
+                }
+                .order-btn-1{
+                    background-color: #76D3BE;
+                }
+                .order-btn-2{
+                    background-color: #F5BC31;
+                }
+            }
+        
+        }
+
+    }
+}
+
+.orderTabs{
+    @media screen and (max-width:568px) {
+    ul{
+        li{
+            // width: 60px;
+            .nav-link{ 
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 23px;
+            }
+            .nav-link.active{
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+    @media screen and (max-width:340px) {
+        .order{
+        .order-status{ 
+        .buy-order{
+           
+            .order-title{
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 14px;
+            }
+            .order-title-desc{
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 14px;
+
+            }
+        }
+    }
+}
+    }
+}    

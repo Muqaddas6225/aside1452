@@ -1,0 +1,80 @@
+.section-filmhub{
+    background: linear-gradient(90deg, rgba(17, 43, 52, 0) 0%, #112B34 48.26%, rgba(17, 43, 52, 0) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    margin-bottom: 100px;
+        
+    .filmhub-card{
+        max-width: 621px;   
+        box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.12);
+        object-fit: contain;
+        .filmhub-content{
+            position: relative;
+        .filmhubImg-div{
+                max-width: 621px;
+                min-height: 216px;
+                object-fit: contain;
+                .filmhub-img{
+                
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .loading{
+                position: absolute;
+            
+                top: 45%;
+                left: 45%;
+            }
+        }
+    }
+
+    .YoutubeVideo-div{
+       
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            overflow: auto;
+            max-height: 630px;
+ 
+    }
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #4BA5A6;
+        border-radius: 21px;
+        max-height: 164px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #4BA5A6;
+        height: 164px;
+       
+      }
+
+}
+
+
+.section-filmhub{
+    @media screen and (max-width: 1035px) {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    }
+}

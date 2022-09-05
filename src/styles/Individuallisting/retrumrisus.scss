@@ -1,0 +1,256 @@
+
+.retrum-risis-row1{
+    .retrum-risis-div{
+
+        .ratrum-rises-desc{
+            h3{
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 167.68%;
+                /* identical to box height, or 34px */
+
+
+                /* #76D3BE */
+
+                color: #76D3BE;
+
+            }
+            p{
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 27px;
+
+                /* #FFFFFF */
+
+                color: #FFFFFF;
+            }
+        }
+
+        .DirectorFilm-div{
+            // overflow: auto;
+            ul{
+                border-bottom: 1.5px solid #CECECE;
+            
+                li{
+                    transform: translateY(1px);
+                    .nav-link{                  
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 23px;
+                        color: #CECECE;
+                        
+                    }
+                    .nav-link.active{
+                        border-bottom: 2px solid #76D3BE;
+                        border-top: none;
+                        border-left: none;
+                        border-right: navajowhite;
+                        font-weight: 600;
+                        color: #76D3BE;
+                        background-color: transparent;
+                    
+                }
+                }
+            }
+            .tab-content{
+                .table{
+                    border-bottom: none;
+                    outline: none;
+                    color: white;
+                    tr{
+                        margin-top: 20px !important;
+                        border: transparent;
+                        margin-bottom: 20px;
+                        // text-align: center;
+                    }
+                    thead{
+                        border: transparent;
+                        background: #066162;
+                        border-radius: 5px;
+                        th{
+                            font-family: 'Raleway';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 97.18%;
+                            /* or 19px */
+
+
+                            /* #76D3BE */
+
+                            color: #76D3BE;
+                        }
+                    }
+                }
+            }
+
+            }
+
+    }
+
+    .retrumrisusImg-div{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        justify-content: center;
+        // align-items: center;
+        .playlistImg-div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 411px;
+            min-width: 290px;
+            .playlistImg{
+               width: 100%;
+               height: 1005;
+            }
+        }
+        
+        .playlist-div{
+                display: flex;
+                flex-direction: row; 
+                gap: 12px;     
+                background: linear-gradient(180deg, #B49776 0%, #09263E 100%);
+                border-radius: 10px;
+            
+                h3{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 105.68%;
+                    /* or 21px */
+
+
+                    color: #FFFFFF;
+                }
+                p{
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 105.68%;
+                    /* or 15px */
+
+
+                    color: #FFFFFF;
+                }
+                progress{
+                    // max-width: 324px;
+                    // width: 100%;
+                    // height: 3px;
+                }
+        }
+
+    }
+
+}
+
+
+.retrum-risis-row2{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    // gap: 30px;
+    // justify-content: center;
+    // align-items: center;
+    // display: flex;
+   .retrumRisusTags-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    // margin-bottom: 20px;
+    .tagscontent-row{
+      
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        .tags{
+            padding-top: 10px;
+            padding-left:5px;
+            display: flex;
+            flex-direction: row;
+            // justify-content: center;
+            align-items: center;
+            gap: 20px;
+            background: #066162;
+            border-radius: 5px;
+            h3{
+                                
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 125.68%;
+                /* identical to box height, or 23px */
+
+
+                /* #76D3BE */
+
+                color: #76D3BE;
+
+            }
+            p{
+                                
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 125.68%;
+                /* or 25px */
+
+
+                /* #FFFFFF */
+
+                color: #FFFFFF;
+
+            }
+         }
+    
+    }
+    
+   }
+   
+   .retrumRisusTags-desc{
+        h3{
+                        
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 167.68%;
+            /* identical to box height, or 34px */
+
+
+            /* #76D3BE */
+
+            color: #76D3BE;
+
+        }
+        p{
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 31px;
+
+            /* #FFFFFF */
+
+            color: #FFFFFF;
+        }
+   }
+}
+
+.retrum-risis-row2{
+    @media screen and (max-width:992px) {
+        .retrumRisusTags-content{
+            margin-bottom: 30px;
+        }
+    }
+}
