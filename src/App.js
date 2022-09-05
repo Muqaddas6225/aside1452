@@ -14,6 +14,7 @@ import Footer from 'components/Footer';
 
 
 function App() {
+  console.log('changing');
   return (
     <>   
         <NavbarSection/>
