@@ -8,7 +8,7 @@ const CalendarItem = (props) => {
              <h4>{props.title}</h4>
             <Row className='calendar-desc'>
                 <Col className='icon-calendar'>
-                    <div><img src={props.img}/></div>
+                    <div><img src={props.img}  alt='calender item'/></div>
                 </Col>
                 <Col className='date-calendar'>
                     <div>
